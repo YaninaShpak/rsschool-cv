@@ -4,9 +4,9 @@
 ## __Contacts__
 
 * Phone: +7 (912) 288-72-30
-* Telegram: t.me/ianinashpak
+* Telegram: [t.me/ianinashpak](https://t.me/ianinashpak)
 * Email: yppoyu@gmail.com
-* GitHub: github.com/YaninaShpak
+* GitHub: [github.com/YaninaShpak](http://github.com/YaninaShpak)
 * Discord: Yanina Shpak(@YaninaShpak)
 
 ## __About me__
