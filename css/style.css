@@ -920,3 +920,22 @@ body .material-icons {
 .night .contacts-list__icon path {
   fill: #572462;
 }
+
+.main-footer {
+  background-color: #7ac7c7;
+}
+
+.night .main-footer {
+  background-color: #545454;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.4722222222vw 0;
+}
+
+.main-footer__copyright {
+  color: #fff;
+}
