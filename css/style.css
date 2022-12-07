@@ -742,3 +742,61 @@ body .material-icons {
   flex-direction: column;
   row-gap: 35px;
 }
+
+.education__wrapper {
+  padding: 30px 30px 30px 5.5555555556vw;
+  background-color: rgb(225, 235, 236);
+  border-radius: 20px;
+}
+
+.night .education__wrapper {
+  background-color: #545454;
+}
+
+.education__table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.education__row {
+  display: flex;
+  -moz-column-gap: 2.7777777778vw;
+       column-gap: 2.7777777778vw;
+}
+
+.education__row--top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #545454;
+}
+
+.night .education__row--top {
+  border-color: #e1ebec;
+}
+
+.education__column {
+  padding: 10px;
+  min-width: calc(100px + 100 * ((100vw - 320px) / 1120));
+}
+
+.education__link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  line-height: 140%;
+}
+
+.education__link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s linear;
+}
+
+.education__link:hover::after {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #7ac7c7;
+}
