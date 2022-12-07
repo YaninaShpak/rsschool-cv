@@ -800,3 +800,44 @@ body .material-icons {
   border-radius: 15px;
   background-color: #7ac7c7;
 }
+
+.languages__title::before,
+.night .languages__title::before {
+  top: -8px;
+  left: 20%;
+  background-color: #ff8d92;
+}
+
+.languages__list {
+  display: flex;
+  align-items: flex-start;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  padding-left: 80px;
+}
+
+.languages__item {
+  position: relative;
+  padding-top: 20px;
+}
+
+.languages__item::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: 40%;
+  z-index: -1;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(67.05deg, #BEF9F9 19.78%, #FAE0E1 74.89%);
+  border-radius: 50%;
+}
+
+.night .languages__item::before {
+  background: linear-gradient(302.45deg, #7C33B5 14.11%, #ED969E 64.31%);
+}
+
+.languages__name {
+  font-size: 24px;
+  font-weight: 700;
+}
