@@ -342,3 +342,11 @@ body .material-icons {
   width: 100%;
   height: auto;
 }
+
+.about-me__text-wrapper {
+  padding: 0 18.75vw 0 40px;
+}
+
+.about-me__text {
+  margin-bottom: 10px;
+}
