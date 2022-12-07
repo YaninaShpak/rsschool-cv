@@ -434,3 +434,31 @@ body .material-icons {
 .skills-sublist__item--bem {
   background-image: url(../img/icons/bem_icon.svg);
 }
+
+.code-example__task {
+  margin-bottom: 1.3888888889vw;
+}
+
+.code-example__code-wrapper {
+  margin-bottom: 1.3888888889vw;
+  padding: 30px 0;
+  background-color: rgba(188, 187, 187, 0.2);
+  border-radius: 20px;
+}
+
+.code-example__button {
+  padding-right: 60px;
+  color: #545454;
+  background-color: #fff;
+  background-image: url(../img/icons/codewars_logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 50% right 0;
+  overflow: hidden;
+}
+
+.night .code-example__button {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(84, 84, 84, 0.5);
+  border-color: #fa595f;
+}
