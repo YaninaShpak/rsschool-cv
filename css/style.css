@@ -462,3 +462,19 @@ body .material-icons {
   background-color: rgba(84, 84, 84, 0.5);
   border-color: #fa595f;
 }
+
+.projects__title::before,
+.night .projects__title::before {
+  background-color: #ff8d92;
+}
+
+.projects__wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
