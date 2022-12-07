@@ -350,3 +350,87 @@ body .material-icons {
 .about-me__text {
   margin-bottom: 10px;
 }
+
+.skills__title::before,
+.night .skills__title::before {
+  background-color: #ff8d92;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-areas: "technology tools methodologies";
+  -moz-column-gap: 2.7777777778vw;
+       column-gap: 2.7777777778vw;
+}
+
+.skills-list__item--technology {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: technology;
+}
+
+.skills-list__item--tools {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: tools;
+}
+
+.skills-list__item--methodologies {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: methodologies;
+}
+
+.skills-list__item-title {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.skills-sublist__item {
+  margin-bottom: 15px;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skills-sublist__item--html {
+  background-image: url(../img/icons/html5.svg);
+}
+
+.skills-sublist__item--css {
+  background-image: url(../img/icons/css.svg);
+}
+
+.skills-sublist__item--js {
+  background-image: url(../img/icons/javascript.svg);
+}
+
+.skills-sublist__item--react {
+  background-image: url(../img/icons/react.svg);
+}
+
+.skills-sublist__item--scss {
+  background-image: url(../img/icons/sass.svg);
+}
+
+.skills-sublist__item--gulp {
+  background-image: url(../img/icons/gulp.svg);
+}
+
+.skills-sublist__item--git {
+  background-image: url(../img/icons/git.svg);
+}
+
+.skills-sublist__item--github {
+  background-image: url(../img/icons/github.svg);
+}
+
+.skills-sublist__item--figma {
+  background-image: url(../img/icons/figma.svg);
+}
+
+.skills-sublist__item--bem {
+  background-image: url(../img/icons/bem_icon.svg);
+}
