@@ -240,3 +240,105 @@ body .material-icons {
 .night .site-list__link--active:hover::after {
   display: none;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8.3333333333vw;
+  margin-bottom: 4.1666666667vw;
+}
+
+
+.intro {
+  min-height: 100vh;
+
+  background-color: #facfd0;
+  background-image: url(../img/pexels-eberhard-grossgasteiger-2088238.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.night .intro {
+  background-color: #0E0619;
+  background-image: url(../img/1239365.jpg);
+}
+
+.intro__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 10.4166666667vw;
+}
+
+.intro__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6.9444444444vw;
+}
+
+.intro__text {
+  margin-bottom: 4.1666666667vw;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px -1px 1px #545454;
+}
+
+.intro__text span {
+  font-family: "Pacifico", cursive;
+  color: #fa595f;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.intro__buttons {
+  display: flex;
+  -moz-column-gap: 1.3888888889vw;
+       column-gap: 1.3888888889vw;
+}
+
+.intro__button--download {
+  padding-right: 50px;
+  background-image: url(../img/icons/file_download.svg);
+  background-repeat: no-repeat;
+  background-size: auto 30px;
+  background-position: top 50% right 10px;
+}
+
+.night .intro__button {
+  background-color: #fa595f;
+  border-color: #fa595f;
+}
+
+.night .intro__button--download {
+  background-color: #fff;
+}
+
+.intro__image-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-right: 2.7777777778vw;
+}
+
+.night .intro__image-wrapper::before {
+  display: none;
+}
+
+.intro__image {
+  width: 27.7777777778vw;
+  height: 27.7777777778vw;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 16px 3px rgba(252, 252, 252, 0.779);
+}
+
+.intro__image img {
+  width: 100%;
+  height: auto;
+}
