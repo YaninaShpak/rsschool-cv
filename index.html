@@ -30,22 +30,22 @@
         <nav class="main-nav main-header__nav">
           <ul class="site-list list-reset main-nav__list">
             <li class="site-list__item">
-              <a class="site-list__link" href="#skills">Skills</a>
+              <a class="site-list__link" href="#skills" aria-label="skills">Skills</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#projects">Projects</a>
+              <a class="site-list__link" href="#projects" aria-label="projects">Projects</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#education">Education</a>
+              <a class="site-list__link" href="#education" aria-label="education">Education</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#languages">Languages</a>
+              <a class="site-list__link" href="#languages" aria-label="languages">Languages</a>
             </li>
             <!-- <li class="site-list__item">
               <a class="site-list__link" href="#experience">Experience</a>
             </li> -->
             <li class="site-list__item">
-              <a class="site-list__link" href="#contacts">Contacts</a>
+              <a class="site-list__link" href="#contacts" aria-label="contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -62,7 +62,7 @@
             </div>
             <div class="intro__buttons">
               <a class="button-link intro__button" href="#contacts">Contacts</a>
-              <a class="button intro__button intro__button--download" href="files/CV_Shpak_Ianina.pdf" download="">Download CV</a>
+              <a class="button intro__button intro__button--download" href="files/CV_Shpak_Ianina.pdf" download>Download CV</a>
             </div>
           </div>
           <div class="intro__image-wrapper">
@@ -95,7 +95,7 @@
               </ul>
             </li>
             <li class="skills-list__item skills-list__item--tools">
-              <span class="skills-list__item-title">Tools:</span> 
+              <span class="skills-list__item-title">Tools:</span>
               <ul class="skills-sublist list-reset skills-list__sublist">
                 <li class="skills-sublist__item skills-sublist__item--scss">SCSS</li>
                 <li class="skills-sublist__item skills-sublist__item--gulp">Gulp</li>
@@ -124,21 +124,18 @@
               <pre class="code__wrapper">
   <span class="code__declarations">function</span> <span class="code__name">getParticipants</span>(handshakes){
     <span class="code__declarations">let</span> <span class="code__name">count</span> = <span class="code__number">0</span>;
-               
     <span class="code__declarations">if</span> (handshakes === <span class="code__number">1</span>) {
       <span class="code__declarations">return</span> <span class="code__number">2</span>;
       } <span class="code__declarations">else if</span> (!handshakes) {
       <span class="code__declarations">return</span> count;
       } <span class="code__declarations">else</span> {
-      <span class="code__declarations">for</span> (<span class="code__declarations">let</span> <span class="code__name">i</span> = <span class="code__number">1</span>; handshakes > <span class="code__number">0</span>; i++) {
+      <span class="code__declarations">for</span> (<span class="code__declarations">let</span> <span class="code__name">i</span> = <span class="code__number">1</span>; handshakes &gt; <span class="code__number">0</span>; i++) {
           handshakes -= i;
           count++;
         }
-    
         <span class="code__declarations">return</span> count + <span class="code__number">1</span>;
       }
     }
-    
     console.log(handshakes(<span class="code__number">15</span>));
               </pre>
             </div>
@@ -227,7 +224,7 @@
                 </p>
               </li>
             </ul>
-            <h3  class="education__subtitle">College:</h3> 
+            <h3  class="education__subtitle">College:</h3>
             <ul class="list-reset education__table">
               <li class="education__row">
                 <p class="education__column">2009 - 2012</p>
@@ -267,7 +264,7 @@
                 <a class="contacts-list__link contacts-list__link--phone" href="tel:+79122887230">
                   <svg class="contacts-list__icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32"><path fill="#545454" d="M27.308,20.649l-2.2-2.2a3.521,3.521,0,0,0-4.938-.021,2.152,2.152,0,0,1-2.729.267A15.026,15.026,0,0,1,13.3,14.562a2.181,2.181,0,0,1,.284-2.739A3.521,3.521,0,0,0,13.553,6.9l-2.2-2.2a3.514,3.514,0,0,0-4.961,0l-.633.634c-3.3,3.3-3.053,10.238,3.813,17.1,4.14,4.141,8.307,5.875,11.686,5.875a7.5,7.5,0,0,0,5.418-2.061l.634-.634A3.513,3.513,0,0,0,27.308,20.649ZM25.894,24.2l-.634.634c-2.6,2.6-8.339,2.125-14.276-3.813S4.571,9.34,7.171,6.74L7.8,6.107a1.511,1.511,0,0,1,2.133,0l2.2,2.2a1.511,1.511,0,0,1,.021,2.11,4.181,4.181,0,0,0-.531,5.239,17.01,17.01,0,0,0,4.713,4.706,4.179,4.179,0,0,0,5.231-.517,1.512,1.512,0,0,1,2.118.013l2.2,2.2A1.51,1.51,0,0,1,25.894,24.2Z"/>
                   </svg>
-                  +7 (912) 288-72-30
+                  +7&nbsp;(912)&nbsp;288&#8209;72&#8209;30
                 </a>
               </li>
               <li class="contacts-list__item contacts-list__item--tg">
